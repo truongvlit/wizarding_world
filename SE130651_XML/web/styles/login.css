@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Baskerville;
+  src: url("fonts/Baskerville Old Serial.ttf");
+}
+
+body, html {
+  background-color: #202020 !important;
+  color: #ffffff !important;
+  height: 100%;
+  margin: 0;
+  font-family: Baskerville;
+}
+
+.input-group-prepend {
+  width: 23%;
+}
+
+.input-group-prepend span {
+  width: 100%;
+  overflow: hidden;
+}
+
+.rounded-button {
+  border-radius: 50px 50px 50px 50px;
+}
+
+.h-40-px {
+  height: 40px;
+}
+
+.h-50-px {
+  height: 50px;
+}
+
+.h-60-px {
+  height: 60px;
+}
+
+.mt--50px {
+  margin-top: -50px;
+}
+
+.mt--100px {
+  margin-top: -100px;
+}

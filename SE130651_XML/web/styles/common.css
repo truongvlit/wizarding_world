@@ -1,0 +1,179 @@
+.account {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.bg-1 {
+  background-image: url("./imgs/bg-1.jpg") !important;
+}
+
+.bg-2 {
+  background-image: url("./imgs/bg-2.jpg")!important;
+}
+
+.bg-3 {
+  background-image: url("./imgs/bg-3.jpg") !important;
+}
+
+.bg-4 {
+  background-image: url("./imgs/bg-4.jpg") !important;
+}
+
+.bg-5 {
+  background-image: url("./imgs/bg-5.jpg") !important;
+}
+
+.bg-6 {
+  background-image: url("./imgs/bg-6.jpg") !important;
+}
+
+.bg-7 {
+  background-image: url("./imgs/bg-7.jpg") !important;
+}
+
+.bg-8 {
+  background-image: url("./imgs/bg-8.jpg") !important;
+}
+
+.bg-9 {
+  background-image: url("./imgs/bg-9.jpg") !important;
+}
+
+.setting-img {
+  width: 35px;
+  height: 35px;
+}
+
+.display-none {
+  display: none;
+}
+
+.setting-dropdown-menu {
+  display: grid;
+  margin-top: 5px;
+  background-color: none;
+}
+
+.fs-40px {
+  font-size: 40px;
+}
+
+.fs-35px {
+  font-size: 35px;
+}
+
+.fs-30px {
+  font-size: 30px;
+}
+
+.fs-25px {
+  font-size: 25px;
+}
+
+.fs-20px {
+  font-size: 20px;
+}
+
+.h-90 {
+  height: 90% !important;
+}
+
+.h-40-px {
+  height: 40px;
+}
+
+.h-50-px {
+  height: 50px;
+}
+
+.h-60-px {
+  height: 60px;
+}
+
+.w-35 {
+  width: 35% !important;
+}
+
+.ml-2rem {
+  margin-left: 2rem !important;
+}
+
+.ml-60px {
+  margin-left: 60px !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+.custom-button {
+  border-radius: 50px 50px 50px 50px;
+  font-size: 30px;
+}
+
+.product-image {
+  position: relative;
+}
+
+.detail-button {
+  position: absolute;
+  left: 92px;
+  top: 100px;
+}
+
+.add-button {
+  position: absolute;
+  left: 60px;
+  top: 150px;
+}
+
+.remove-button {
+  position: absolute;
+  left: 40px;
+  top: 150px;
+}
+
+.custom-img {
+  width: 200px;
+  height: 200px;
+}
+
+.overflow-scroll {
+  height: 67% !important;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	width: 100%;
+	height: 4px;
+	cursor: pointer;
+	background: #03a9f4;
+	border-radius: 25px;
+}
+ 
+::-webkit-scrollbar-thumb {
+	height: 20px;
+	width: 20px;
+	border-radius: 25px;
+	background: #fff;
+	box-shadow: 0 0 4px 0 rgba(0,0,0, 1);
+	cursor: pointer;
+	-webkit-appearance: none;
+	margin-top: -8px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/D:/A%20FPT/Study/8%20-%20Summer2020/PRX301/Demo/SE130651_XML/src/java/truongvl/contents/xsd/products.xsd" uri="src/conf/xml-resources/jaxb/Product/products.xsd"/>
+</catalog>

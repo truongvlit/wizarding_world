@@ -1,0 +1,38 @@
+@font-face {
+  font-family: BluuNext-Titling;
+  src: url("fonts/BluuNext-Titling.ttf");
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  color: #ffffff;
+  font-family: BluuNext-Titling;
+}
+
+.bg {
+  background-image: url("./imgs/bg-0.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-5 {
+  background-image: url("./imgs/bg-5.jpg");
+}
+
+.display-none {
+  display: none;
+}
+
+.point-badge {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  right: -20px;
+  top: -15px;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}

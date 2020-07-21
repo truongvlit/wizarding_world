@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xsd:schema version="1.0"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xsd:element name="products">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="product" minOccurs="1" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="category" type="xsd:string"/>
+                            <xsd:element name="name" type="xsd:string"/>
+                            <xsd:element name="price" type="xsd:float" default="0.0"/>
+                            <xsd:element name="note" type="xsd:string"/>
+                            <xsd:element name="description" type="xsd:string"/>
+                            <xsd:element name="img" type="xsd:string"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

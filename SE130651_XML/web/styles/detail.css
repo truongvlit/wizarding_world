@@ -1,0 +1,28 @@
+@font-face {
+  font-family: BluuNext-Titling;
+  src: url("fonts/BluuNext-Titling.ttf");
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  color: #ffffff;
+  font-family: BluuNext-Titling;
+}
+
+.bg {
+  background-image: url("./imgs/bg-5.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-image {
+  position: relative;
+}
+
+.custom-img {
+  width: 200px;
+  height: 200px;
+}
